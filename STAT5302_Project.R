@@ -3,6 +3,7 @@
 
 # Load Packages
 library(alr4)
+library(car) 
 
 # data preprocess
 getwd()
@@ -13,128 +14,155 @@ Waste <- Waste[,-7]
 colnames(Waste) <- c("FTE", "ImprV", "LandV", 
                      "Size", "Use", "Wst")
 
-# scatter plot
-scatterplotMatrix(~ Wst + FTE + ImprV + LandV + 
-                    Size + Use, data = Waste,
-                  spread = FALSE, 
-                  main = "Scatter Plot Matrix")
+# change the variable Use into factor
+assDat$Use <- as.factor(assDat$Use)
 
-# regressor transformation
-summary(powerTransform(cbind(FTE, ImprV, 
-                             LandV, Size) ~ 1, Waste))
+# get the summary of the data
+summary(assDat)
 
+# draw the scatterplot matrix of the data
+scatterplotMatrix(~ FTE + ImprV + LandV + Size
+                  + Wst |Use, data = assDat)
 
-scatterplotMatrix(~ Wst + log(FTE) + log(ImprV) + 
-                    log(LandV) + log(Size) + Use, 
-                  data = Waste,
-                  spread = FALSE, 
-                  main = "Scatter Plot Matrix 2")
-
-
-m1 <- lm(Wst ~ log(FTE) + log(ImprV) + 
-           log(LandV) + log(Size) + Use, Waste)
-
-# response transformation
-inverseResponsePlot(m1)
-
-m2 <- lm(log(Wst) ~ log(FTE) + log(ImprV) + 
-           log(LandV) + log(Size) + Use, Waste)
-summary(m2)
-
-scatterplotMatrix(~ log(Wst) + log(FTE) + log(ImprV) + 
-                    log(LandV) + log(Size) + Use, 
-                  data = Waste,
-                  spread = FALSE, 
-                  main = "Scatter Plot Matrix 3",
-                  labels = rownames(Waste),
-                  id.n = 3, id.col = "red")
+# there is a point that has huge FTE, ImprV, LandV
+# and Size but small Wst
+which(assDat$FTE > 2000)
+which(assDat$ImprV > 1.5*10^7)
+which(assDat$LandV > 2*10^6)
+which(assDat$Size > 6*10^5)
+assDat$Wst[77]
 
 
-##### Fit models ######
-# forward selection using AIC
-m0 <- lm(log(Wst) ~ 1, Waste)
-s1 <- step(m0,
-           scope= list(upper = ~ (log(FTE) + log(ImprV) + 
-                                   log(LandV) + log(Size)
-                                 + Use)^2, 
-                       lower = ~ 1), 
-           direction="forward", k = 2)
-summary(s1)
+##############################################
+##############   Modeling   ##################
+##############################################
+# try the power transformation with that point (77)
+pt1 <- powerTransform(cbind(FTE, ImprV, LandV, Size) ~ 1,
+                      data = assDat)
+# power transformation suggests using all log transformation
+summary(pt1)
 
-# Test for constant variance and curvature
-residualPlots(s1)
-plot(log(Waste$Wst), predict(s1))
-abline(0,1)
+# try the power transformation without observation 77
+pt2 <- powerTransform(cbind(FTE, ImprV, LandV, Size) ~ 1,
+                       data = assDat[-77, ])
+
+# It still suggests using all log transformation
+summary(pt2)
+
+# scatterplot matrix of variables after log transformation
+# with observation 77
+scatterplotMatrix(~ log(FTE) + log(ImprV) + log(LandV)
+                  + log(Size) + Wst | Use, data = assDat)
+
+# scatterplot matrix of variables after log transformation
+# without observation 77
+scatterplotMatrix(~ log(FTE) + log(ImprV) + log(LandV)
+                  + log(Size) + Wst |Use, data = assDat[-77, ])
+
+# comment: we can see that whether dropping the observation 
+# 77 makes little difference in the making the regressors 
+# linearly related
+
+# variable screening using backward selection
+s1 <- step (lm(Wst ~ ( log (FTE) + log (ImprV) + log (LandV)
+                       + log(Size) + Use)^2, data = assDat) , direction = "backward")
+
+# plot the response versus the fitted value
+plot(Wst ~ fitted(s1), data = assDat)
+
+# Try to do a power transformation on the fitted value 
+# the result shows that we may choose 4 as the power
+with(assDat, invTranPlot(abs(fitted(s1)) , Wst))
+
+# choose 4 as a power and transform the fitted value
+s2 <- lm(Wst ~ poly(I(fitted(s1)), 4), data = assDat)
+
+# plot the residual plot
+# there is a huge cluster on the left
+residualPlot(s2)
+
+# test nonconstant variance
+# the result shows that it is significant that 
+# the model has a non constant variance
+ncvTest(s2)
+
+# we can do the regression of square of residuals on 
+# the fitted value to model the variance
+we <- lm(resid(s2)^2 ~ fitted(s1), data = assDat)
+# the result turns out that it is significant
+summary(we)
+
+# fit the model with the reciprocal of fitted we as the weight
+m1<- lm(Wst ~ poly(I(fitted(s1)), 4), data = assDat, weights = 1/abs(fitted(we)))
+
+# plot the residual plot, we can see that
+# there is still a cluster of points on the left
+plot(resid(m1, "pearson") ~ fitted(m1)) lines(lowess(fitted(m1), f = 1,
+                                                     resid (m1, "pearson" ) ) , col="red" )
+
+# the summary shows that almost all of the terms are very significant
+summary (m1)
+
+# ncvTest shows that we can not reject the null hypothesis
+# that there is no nonconstant variance
+ncvTest(m1)
+
+# the outlier test shows that there are 2 possible outliers
+outlierTest(m1)
+
+# plot the values
+influenceIndexPlot(m1, vars = c("Cook"))
+
+#find out the observation with largest Cook’s distance 
+which(cooks.distance(m1) == max(cooks.distance(m1)))
+
+#################################################### 
+# plot the confidence region matrix of retaining that 
+# point and removing that point 
+####################################################
+# create function cE to plot confidence ellipses: 
+# betas is a vector with length 2 to store the indices 
+# for betas
+# c is the confidence level
+# dp is the indice for the observation to drop
+ce <- function(betas, c, dp){
+  # confidence region after dropping case dp
+  confidenceEllipse(lm(Wst ~ poly(I(fitted(s1)[-dp]) , 4), 
+                       data = assDat[-dp, ] ,
+                       weights = 1/abs(fitted(we)[-dp])), 
+                    which.coef = betas,
+                    levels = c,
+                    col = "blue", lty = 2)
+  # confidence region before dropping case dp for betaas
+  confidenceEllipse (m1, which.coef = betas, 
+                     levels = c, add = TRUE)
+}
+
+# there are 6 coefficients
+d <- 5
+
+# set the arrangement of the plots 
+par(mfrow = c(d,d))
+# change the figure margins setting 
+par(mar = c(1,1,1,1))
+# create a vector to store variable names
+vname <- c("Intercept", "fitted"," fitted^2", 
+           "fitted^3", "fitted^4")
+for (i in c(1:d)){ 
+  for (j in c(1:d)){
+  if (i == j){
+    plot(1, type = "n")
+    # text the variable name 
+    text(1,1, vname[i], cex = 2)
+  }else{
+    ce(c(i,j), 0.95, 41)
+  }
+  }
+}
+  
+# set the figure margins to the default
+par(mar=c(5.1, 4.1, 4.1, 2.1))
+# set the figure arrangement to default 
+par(mfrow = c(1,1))
 
 
-# backward selection using BIC
-m3 <- lm(log(Wst) ~ (log(FTE) + log(ImprV) + log(LandV) + log(Size) + Use)^2, Waste)
-s2 <- step(m3,
-           scope = list(upper = ~ (log(FTE) + log(ImprV) + 
-                                    log(LandV) + log(Size)
-                                  + Use)^2, 
-                        lower = ~ 1), 
-           direction = "backward")
-summary(s2)
-avPlots(s2, ~ log(LandV))
-avPlots(s2, ~ log(FTE):log(ImprV))
-avPlots(s2, ~ log(FTE):Use)
-avPlots(s2, ~ log(ImprV):log(LandV))
-
-
-# Test for constant variance and curvature
-par(mfrow = c(2,3))
-residualPlots(s2)
-par(mfrow=c(1,1))
-
-# scatter plot of response and fitted value
-plot(log(Waste$Wst), predict(s2))
-abline(0,1)
-
-# outlierTest
-outlierTest(s2, cutoff = 1, order = TRUE)
-
-# plot the cook's distance
-cook <- cooks.distance(s2)
-plot(cook,ylab="Cooks distances")
-points(21,cook[21],col='orange')
-points(18,cook[18],col='blue')
-
-### delete point 21
-m4 <- lm(log(Wst) ~ (log(FTE) + log(ImprV) + log(LandV) + log(Size) + Use)^2, Waste[-21,])
-s4 <- step(m4,
-           scope = list(upper= ~ (log(FTE) + log(ImprV) + 
-                                    log(LandV) + log(Size)
-                                  + Use)^2, 
-                        lower = ~ 1), 
-           direction="backward")
-summary(s4)
-
-### delete point 18
-m5 <- lm(log(Wst) ~ (log(FTE) + log(ImprV) + log(LandV) + log(Size) + Use)^2, Waste[c(-18),])
-s5 <- step(m5,
-           scope = list(upper= ~ (log(FTE) + log(ImprV) + 
-                                    log(LandV) + log(Size)
-                                  + Use)^2, 
-                        lower = ~ 1), 
-           direction="backward")
-summary(s5)
-
-### delete point 18 and 21
-m6 <- lm(log(Wst) ~ (log(FTE) + log(ImprV) + log(LandV) + log(Size) + Use)^2, Waste[c(-18,-21),])
-s6 <- step(m6,
-           scope = list(upper= ~ (log(FTE) + log(ImprV) + 
-                                    log(LandV) + log(Size)
-                                  + Use)^2, 
-                        lower = ~ 1), 
-           direction="backward")
-summary(s6)
-
-
-# confidence region
-betahat.not.i <- influence(m2)$coefficients
-panel.fun <- function(x, y, ...){
-  points(x, y, ...)
-  dataEllipse(x, y, plot.points = FALSE, levels = c(.99))
-  showLabels(x, y, labels=rownames(Waste), id.method = "mahal", id.n = 4)}
-pairs(betahat.not.i, panel=panel.fun)
