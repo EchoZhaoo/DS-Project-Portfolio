@@ -39,8 +39,8 @@ Implemented several machine learning and deep learning models from scratch.<br /
 * Implement **Steepest descent method** with **Armijo step size rule**;<br /> **Diagonally scaled gradient method** (using the Hessian diagonals) with **constant step size rule**;<br /> **Conjugate gradient method** with **exact minimization step size rule**;<br /> **Preconditioned conjugate gradient method** (using the Hessian diagonals) with exact minimization step size rule. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/EE%205239/HW2) 
 * Run Steepest Descent using **diminishing stepsize rule** on a randomly generated problem [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/EE%205239/HW3)
 * Use **linear least squares** and the **logistic regression model** to do classification. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/EE%205239/HW4)
-* Use **support vector machine (SVM)** to perform the classification. [Code]()
-<br />**Keywords**: *Matlab, Optimization, Gradient Descent,*
+* Use **support vector machine (SVM)** to perform the classification. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/EE%205239/HW5)
+<br />**Keywords**: *Matlab, Optimization, Gradient Descent, Support Vector Machine*
 
 
 
