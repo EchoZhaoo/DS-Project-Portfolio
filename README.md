@@ -21,14 +21,14 @@ This repository contains all the projects that I worked on for data analysis and
  [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/STAT5302_Project_Report.pdf)<br /> 
  - I developed a **regression model** to predict the amount of waste produced by a business.<br />
  - The data are got from **147 businesses**, and there are **5 variables** in total, 4 of them are numerical variables and the other one is **categorial variable**.<br />
- **Keywords**: *R, Statistical Modeling, Regression, Prediction, Outlier Detection, Categorial Variable*
+**Keywords**: *R, Statistical Modeling, Regression, Prediction, Outlier Detection, Categorial Variable*
  
 ## Machine Learning Assignment
 [Matlab Code]()<br />
 * Implemented several machine learning and deep learning models from scratch.<br />
-  * LDA vs PCA<br />
-  * Gaussian Classification<br />
- **Keywords**: *Matlab, Machine Learning*
+  * [LDA vs PCA](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/LDA%20&%20PCA)<br />
+  * [Gaussian Classification](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/Gaussian%20Classification)<br />
+**Keywords**: *Matlab, Machine Learning*
 
 
 
