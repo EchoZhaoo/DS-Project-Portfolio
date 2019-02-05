@@ -30,8 +30,8 @@ Implemented several machine learning and deep learning models from scratch.<br /
 * [Gaussian Classification](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/Gaussian%20Classification)<br />
 * Run **k-nearest neighbors (KNN)** classification using a subset of the UCI Optdigits dataset, which is composed of **1500 training samples**, and 297 test samples, each with **64 features**. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW2/Question2)
 * Apply **PCA** to visualize the **modified Faces dataset** from the UCI repository, which contains a total of **156 images** in this dataset. There are 4 facial expressions (neutral, happy, sad, angry) and 2 eye states (open, sunglasses) of each of the 20 people in this dataset. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW2/Question2)
-* Implement K-Means algorithm, using squared Euclidean distance, to do image compression by clustering the pixels in the image file. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW2/Question3)
-**Keywords**: *Matlab, Machine Learning*
+* Implement **K-Means algorithm**, using squared Euclidean distance, to do **image compression** by clustering the pixels in the image file. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW2/Question3)
+<br />**Keywords**: *Matlab, Machine Learning*
 
 
 
