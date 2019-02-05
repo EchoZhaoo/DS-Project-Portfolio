@@ -35,6 +35,11 @@ Implemented several machine learning and deep learning models from scratch.<br /
 * Apply a **Univariate Decision Tree** for optical-digit classification. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW4)
 <br />**Keywords**: *Matlab, Machine Learning, LDA, PCA, KNN, K-Means, MLP, RBF, Kernel Perceptron, Decision Tree*
 
+## Nonlinear Optimization Assignment
+* Implement **Steepest descent method** with **Armijo step size rule**;<br /> **Diagonally scaled gradient method** (using the Hessian diagonals) with **constant step size rule**;<br /> **Conjugate gradient method** with **exact minimization step size rule**;<br /> **Preconditioned conjugate gradient method** (using the Hessian diagonals) with exact minimization step size rule. [Code]() 
+*
+<br />**Keywords**: *Matlab, Optimization, Gradient Descent,*
+
 
 
 Please feel free to contact me at [zhao1020@umn.edu](zhao1020@umn.edu) to connect! :wink:
