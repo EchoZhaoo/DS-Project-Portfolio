@@ -11,7 +11,7 @@ This repository contains all the projects that I worked on for data analysis and
 ## Santa Gift Matching Challenge
 [Python Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Python/EE5239%20Project)<br />
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/EE5239_Project_Report.pdf)<br />
-* For this project, our goal is to build an algorithm that maximizes the total happiness of both Santa and children by paring children with gifts they want.
+* Goal: to build an algorithm that maximizes the total happiness of both Santa and children by paring children with gifts they want.
 * There are one million children and 1000 types of gifts in total.
 * We conclude it as a Min-Cost Flow Problem in the end and solved it using solver "Ortools"<br />
 **Keywords**: *Nonlinear Optimization, Min-Cost Flow Problem, Ortools*
@@ -19,7 +19,7 @@ This repository contains all the projects that I worked on for data analysis and
 ## TalkingData AdTracking Fraud Detection
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)<br /> 
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/PUBH%207475_Final_Report.pdf)<br /> 
-- This Kaggle competition aimed to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
+- Goal: to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
 - The dataset covers approximately **200 million** clicks, and 8 features are included in train data set. Based on these features, our final predictive model included **21 features**. <br />
 - The dataset is **highly imbalanced**. Gradient boosting decision tree algorithm (**LightGBM**) was chosen as the final model.<br />
 **Keywords**: *Python, Data Visualization, Penalized Logistic Regression, Random Forest, Gradient Boosting, LightGBM, XGBoost*
