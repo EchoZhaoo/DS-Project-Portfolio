@@ -24,7 +24,6 @@ This repository contains all the projects that I worked on for data analysis and
 **Keywords**: *R, Statistical Modeling, Regression, Prediction, Outlier Detection, Categorial Variable*
  
 ## Machine Learning Assignment
-[Matlab Code]()<br />
 Implemented several machine learning and deep learning models from scratch.<br />
 * [LDA vs PCA](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/LDA%20&%20PCA)<br />
 * [Gaussian Classification](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/Gaussian%20Classification)<br />
