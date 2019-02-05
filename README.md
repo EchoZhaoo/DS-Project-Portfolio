@@ -11,9 +11,9 @@ This repository contains all the projects that I worked on for data analysis and
 ## TalkingData AdTracking Fraud Detection
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)<br /> 
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/PUBH%207475_Final_Report.pdf)<br /> 
-- This Kaggle competition aimed to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
-- The dataset covers approximately **200 million** clicks, and 8 features are included in train data set. Based on these features, our final predictive model included **21 features**. <br />
-- The dataset is **highly imbalanced**. Gradient boosting decision tree algorithm (LightGBM) was chosen as the final model.
+> This Kaggle competition aimed to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
+> The dataset covers approximately **200 million** clicks, and 8 features are included in train data set. Based on these features, our final predictive model included **21 features**. <br />
+> The dataset is **highly imbalanced**. Gradient boosting decision tree algorithm (LightGBM) was chosen as the final model.
 **Keywords**: *Python, Data Visualization, Penalized Logistic Regression, Random Forest, Gradient Boosting, LightGBM, XGBoost*
 
 ## Prediction of Waste Produced Amount for Company
