@@ -8,7 +8,7 @@ This repository contains all the projects that I worked on for data analysis and
 # Data Science Competition Projects
 
 # Class Projects
-## 
+## Prediction of Waste Produced Amount for Company
  For STAT 5302 Applied Regerssion Analysis<br />
  [Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/STAT5302_Project_Report.pdf)<br /> 
  [R Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/R%20Code/STAT5302_Project.R)<br />
