@@ -33,7 +33,7 @@ Implemented several machine learning and deep learning models from scratch.<br /
 * Implement a **Multilayer Perceptron (MLP)** for optical-digit classification. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW3/Question4)
 * Implement a **Kernel Perceptron** using **Radial Basis Function (RBF) kernel**. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW3/Question5)
 * Apply a **Univariate Decision Tree** for optical-digit classification. [Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Matlab%20Code/CSCI%205521/HW4)
-<br />**Keywords**: *Matlab, Machine Learning*
+<br />**Keywords**: *Matlab, Machine Learning, LDA, PCA, KNN, K-Means, MLP, RBF, Kernel Perceptron, Decision Tree*
 
 
 
