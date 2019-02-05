@@ -9,9 +9,9 @@ This repository contains all the projects that I worked on for data analysis and
 
 # Class Projects
 ## TalkingData AdTracking Fraud Detection
-[Python Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)  
+[Python Jupyter Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)  
 This Kaggle competition aimed to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement. Gradient boosting decision tree algorithm (LightGBM) was chosen as the final model.  
-**Keywords:** Python, Data Visualization, Logistic Regression, Random Forest, LightGBM
+**Keywords:** Python, Jupyter Notebook, Data Visualization, Logistic Regression, Random Forest, LightGBM
 
 ## Prediction of Waste Produced Amount for Company
  For STAT 5302 Applied Regerssion Analysis<br />
