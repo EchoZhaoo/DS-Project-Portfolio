@@ -26,8 +26,8 @@ This repository contains all the projects that I worked on for data analysis and
 ## Machine Learning Assignment
 [Matlab Code]()<br />
 * Implemented several machine learning and deep learning models from scratch.<br />
-** LDA vs PCA<br />
-** Gaussian Classification<br />
+  * LDA vs PCA<br />
+  * Gaussian Classification<br />
  **Keywords**: *Matlab, Machine Learning*
 
 
