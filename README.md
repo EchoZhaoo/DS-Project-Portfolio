@@ -20,13 +20,13 @@ This repository contains all the projects that I worked on for data analysis and
  [R Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/R%20Code/STAT5302_Project.R)<br />
  [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/STAT5302_Project_Report.pdf)<br /> 
  - I developed a **regression model** to predict the amount of waste produced by a business.<br />
- - The data are got from **147 businesses**, and there are **5 variables** in total, 4 of them are numerical variables and the other one is categorial variable.<br />
+ - The data are got from **147 businesses**, and there are **5 variables** in total, 4 of them are numerical variables and the other one is **categorial variable**.<br />
  **Keywords**: *R, Statistical Modeling, Regression, Prediction, Outlier Detection, Categorial Variable*
  
 ## Machine Learning Assignment
 [Matlab Code]()<br />
 - Implemented several machine learning and deep learning models from scratch.<br />
- **Keywords**: *Matlab, Machine Learning, *
+ **Keywords**: *Matlab, Machine Learning*
 
 
 
