@@ -52,4 +52,4 @@ Implemented several machine learning and deep learning models from scratch.<br /
 
 
 
-Please feel free to contact me at [zhao1020@umn.edu](zhao1020@umn.edu) to connect! :wink:
+Please feel free to contact me at [zhao1020@umn.edu](zhao1020@umn.edu) to connect!
