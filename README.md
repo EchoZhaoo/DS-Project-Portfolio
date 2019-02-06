@@ -15,7 +15,7 @@ This repository contains all the projects that I worked on for data analysis and
 * There are one million children and 1000 types of gifts in total.
 * We conclude it as a Min-Cost Flow Problem in the end and solved it using solver "Ortools"<br />
 <br />**Keywords**: *Nonlinear Optimization, Min-Cost Flow Problem, Ortools*
----------------------------------------------------------------
+
 ## TalkingData AdTracking Fraud Detection
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)<br /> 
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/PUBH%207475_Final_Report.pdf)<br /> 
