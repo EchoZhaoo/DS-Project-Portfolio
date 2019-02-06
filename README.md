@@ -4,6 +4,9 @@ This repository contains all the projects that I worked on for data analysis and
 # Research Projects
 
 # Personal Projects
+## Air Passengers Prediction
+
+<br />**Keywords**: Python, Tableau, Time Series Analysis, SARIMAX, 
 
 # Data Science Competition Projects
 
