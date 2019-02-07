@@ -12,7 +12,7 @@ For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passeng
 - Build a SARIMAX(Seasonal Auto-Regressive Integrated Moving Average with eXogenous regressors) model by Python to do both one-step prediction and dynamic prediction.
 - Do data visualization on Tableau and its integration with Python which is called TabPy. 
 
-<br />**Keywords**: Python, Tableau, Time Series Analysis, SARIMAX, 
+<br />**Keywords**: *Python, Tableau, Time Series Analysis, SARIMAX*
 
 # Data Science Competition Projects
 
