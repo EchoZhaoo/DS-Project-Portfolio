@@ -5,6 +5,9 @@ This repository contains all the projects that I worked on for data analysis and
 
 # Personal Projects
 ## Air Passengers Prediction
+For further detail, click [here](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/README.md)<br />
+[Python Jupyter Notebook](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/SARIMAX.ipynb)<br />
+[Tableau]()<br />
 
 <br />**Keywords**: Python, Tableau, Time Series Analysis, SARIMAX, 
 
