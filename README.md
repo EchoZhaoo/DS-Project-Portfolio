@@ -8,6 +8,7 @@ This repository contains all the projects that I worked on for data analysis and
 For further detail, please click [here](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/README.md)<br />
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/SARIMAX.ipynb)<br />
 [Tableau]()<br />
+- **Goal**:
 
 <br />**Keywords**: Python, Tableau, Time Series Analysis, SARIMAX, 
 
@@ -17,7 +18,7 @@ For further detail, please click [here](https://github.com/EchoZhaoo/Air-Passeng
 ## Santa Gift Matching Challenge
 [Python Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Python/EE5239%20Project)<br />
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/EE5239_Project_Report.pdf)<br />
-* Goal: to build an algorithm that maximizes the total happiness of both Santa and children by paring children with gifts they want.
+* **Goal**: to build an algorithm that maximizes the total happiness of both Santa and children by paring children with gifts they want.
 * There are one million children and 1000 types of gifts in total.
 * We conclude it as a Min-Cost Flow Problem in the end and solved it using solver "Ortools"<br />
 <br />**Keywords**: *Nonlinear Optimization, Min-Cost Flow Problem, Ortools*
@@ -25,7 +26,7 @@ For further detail, please click [here](https://github.com/EchoZhaoo/Air-Passeng
 ## TalkingData AdTracking Fraud Detection
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)<br /> 
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/PUBH%207475_Final_Report.pdf)<br /> 
-- Goal: to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
+- **Goal**: to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
 - The dataset covers approximately **200 million** clicks, and 8 features are included in train data set. Based on these features, our final predictive model included **21 features**. <br />
 - The dataset is **highly imbalanced**. Gradient boosting decision tree algorithm (**LightGBM**) was chosen as the final model.<br />
 <br />**Keywords**: *Python, Data Visualization, Penalized Logistic Regression, Random Forest, Gradient Boosting, LightGBM, XGBoost*
