@@ -2,6 +2,14 @@
 This repository contains all the projects that I worked on for data analysis and statistical modeling from Sep 2017 till now.<br />They are written in R, Matlab or Python.
 
 # Research Projects
+## Estimation of Group Structure Based on Mutual Information 
+[Matlab Code]()<br />
+**Keywords**:
+
+
+
+
+
 
 # Personal Projects
 ## Air Passengers Prediction
