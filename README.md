@@ -2,7 +2,7 @@
 This repository contains all the projects that I worked on for data analysis and statistical modeling from Sep 2017 till now.<br />They are written in R, Matlab or Python.
 
 # Research Projects
-## Estimation of Group Structure Based on Mutual Information 
+## *Estimation of Group Structure Based on Mutual Information*
 [Matlab Code]()<br />
 **Keywords**:
 
@@ -12,7 +12,7 @@ This repository contains all the projects that I worked on for data analysis and
 
 
 # Personal Projects
-## Air Passengers Prediction
+## *Air Passengers Prediction*
 For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/README.md)<br />
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/SARIMAX.ipynb)<br />
 [Tableau]()<br />
