@@ -33,9 +33,21 @@ For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passeng
 
 
 # Data Science Competition Projects
-## *Women in Data Science*
+## *WiDS* <br /> *Women in Data Science*
+[Python Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Python/WiDS)<br />
+* Used clustering and variable selection for the categorical multivariate data.
+* Tried Logistic Regression, Random Forest, SVM, Neural Network, XGBoost to predict the gender of the interviewee.
+* Tuned Random Forest and XGBoost to get the final prediction.
+
+**Keywords**: *Python, SVM, Neural Network, Logistic Regression, Random Forest, XGBoost*
 
 ## *Minneanalytics MUDAC 2017* <br /> *Cost Prediction for Potential Diabetes Patients*
+[R Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/R%20Code/MUDAC1.R)<br />
+[Python Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/MUDAC_python.py)<br />
+* Built a model to predict the medical cost for diabetes patients using Logistic Regression and Random Forest.
+* The medical dataset was provided by Optum and had around five million observations.
+
+**Keywords**: *R, Python, Logistic Regression, Random Forest*
 
 # Class Projects
 ## *Santa Gift Matching Challenge*
