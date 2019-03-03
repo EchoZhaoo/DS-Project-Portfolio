@@ -28,9 +28,14 @@ For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passeng
 
 **Keywords**: *Python, Tableau, Time Series Analysis, SARIMAX*
 
-## *Text Mining*
+## *Quality Evaluation of Answers in Online Medical Q&A Community*
 
-
+* Collect text data of diabetics from Xunyiwenyao through web crawler technology
+* Use synonym replacement, typo screening to preprocess data in R. Segment words based on ten Chinese dictionaries and integrated stop words dictionaries with package “Rwordreg”.
+* Use **TF-IDF** to finish the vectorization of texts, calculate the frequency of words, then abstract key words.
+* Use **Apriori** algorithm to conduct **association analysis**. Analyze association rules and apply them to real world.
+* Use package **“wordcloud2”** to plot data in an interactive way.
+**Keywords**: *Text Mining, R, TF-IDF, Association Analysis, Apriori, wordcloud2*
 
 # Data Science Competition Projects
 ## *WiDS* <br /> *Women in Data Science*
