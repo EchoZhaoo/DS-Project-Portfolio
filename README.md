@@ -35,6 +35,7 @@ For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passeng
 * Use **TF-IDF** to finish the vectorization of texts, calculate the frequency of words, then abstract key words.
 * Use **Apriori** algorithm to conduct **association analysis**. Analyze association rules and apply them to real world.
 * Use package **“wordcloud2”** to plot data in an interactive way.
+
 **Keywords**: *Text Mining, R, TF-IDF, Association Analysis, Apriori, wordcloud2*
 
 # Data Science Competition Projects
