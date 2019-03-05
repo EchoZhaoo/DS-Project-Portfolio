@@ -20,7 +20,7 @@
 # Algorithms
 - Split the training dataset into the training and test subsets for validation. 
 - For each method, we first got the predicted probabilities on the splitted test set, then get the AUC score, then test again using 5-fold cross-validation.
-- Tried 4 classifiers: Logistic Regression, Random Forest (500 trees), SVM (RBF), and XGBoost.
+- Tried 4 classifiers: Logistic Regression, Random Forest (500 trees), SVM (RBF), Neural Network and XGBoost.
 
 # Prediction
 Using XGBoost, write out .csv file for submission. <br />
