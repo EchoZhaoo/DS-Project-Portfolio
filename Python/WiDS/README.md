@@ -8,7 +8,7 @@
 
 
 # Data Description
-- The dataset contains 1235 variables (including target and train row id) from 18.255 respondent which are classified as female (is_female = 1) and male (is_female = 0).<br />
+- The dataset contains 1235 variables (including target and train row id) from 18,255 respondent which are classified as female (is_female = 1) and male (is_female = 0).<br />
 - The class is well-balanced as 53% of the total respondents are female.
 
 # Data Preprocessing
