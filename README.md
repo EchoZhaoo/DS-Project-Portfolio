@@ -41,6 +41,7 @@ For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passeng
 # Data Science Competition Projects
 ## *WiDS* <br /> *Women in Data Science*
 [Python Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Python/WiDS)<br />
+For more details check this [Kaggle competition](https://www.kaggle.com/c/wids2018datathon)
 * Used clustering and variable selection for the categorical multivariate data.
 * Tried Logistic Regression, Random Forest, SVM, Neural Network, XGBoost to predict the gender of the interviewee.
 * Tuned Random Forest and XGBoost to get the final prediction.
