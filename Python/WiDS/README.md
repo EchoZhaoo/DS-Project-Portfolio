@@ -32,3 +32,10 @@ Result: 0.90 on leaderboard Note: also tried submitting predictions using Random
 - Random Forest: 0.956
 - SVM (default parameters): 0.896
 - XGBoost (tuned): ~ 0.95
+
+
+# Conclusion
+Put more strength on feature engineer
+- Try different encoding methods, like Binary Encoding, Cluster Encoding and Mean Encoding
+- Try feature reduction according to the importance of each feature
+- Try to combine features 
