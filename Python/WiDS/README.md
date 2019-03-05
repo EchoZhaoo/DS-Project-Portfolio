@@ -1,0 +1,1 @@
+- The dataset for the challenge will contain demographic and behavioral information from a representative sample of survey respondents from India and their usage of traditional financial and mobile financial services.
