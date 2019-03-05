@@ -21,7 +21,6 @@ This repository contains all the projects that I worked on for data analysis and
 ## *Air Passengers Prediction*
 For further detail, please check [here](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/README.md)<br />
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/Air-Passengers-Prediction/blob/master/SARIMAX.ipynb)<br />
-[Tableau]()<br />
 - **Goal**: Do time series analysis about how the number of air passengers changed as the time passing by.
 - Build a SARIMAX(Seasonal Auto-Regressive Integrated Moving Average with eXogenous regressors) model by Python to do both one-step prediction and dynamic prediction.
 - Do data visualization on Tableau and its integration with Python which is called TabPy. 
