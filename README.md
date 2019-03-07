@@ -60,6 +60,7 @@ For more details check this [Kaggle competition](https://www.kaggle.com/c/wids20
 ## *Santa Gift Matching Challenge*
 [Python Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/tree/master/Python/EE5239%20Project)<br />
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/EE5239_Project_Report.pdf)<br />
+[Blog](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/EE5239%20Project/README.md)<br />
 * **Goal**: to build an algorithm that maximizes the total happiness of both Santa and children by paring children with gifts they want.
 * There are one million children and 1000 types of gifts in total.
 * We conclude it as a Min-Cost Flow Problem in the end and solved it using solver "Ortools"
