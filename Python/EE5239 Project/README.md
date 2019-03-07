@@ -23,6 +23,8 @@
 - The graph here is a bipartite graph, one node set presents all the gifts, the other node set presents all the children.
 - The edges only exits between gift node set and child node set, there is no edge inside the gift node set or the child node set.
 - The weight on each edge is the rank on the wishlist.
+- Did linear approximation of the of the original object function, which is (ANCH)^3 + (ANSH)^3. (ANCH: Average Normalized Child Happiness; ANSH: Average Normalized Santa Happiness).
+- Cut the edges whose ChildHappinesses are less than 100.
 - Used `Ortools` to solve this Min-Cost Flow Problem
 - Used `SolveMaxFlowWithMinCost()` as a relexation, which means some gifts may be left unassigned or some kids might have no gift.
 - For some twins and triplets having different gifts (which is 2 tripets and 42 twins in out final result), we swap their gifts with singes to make triplets and twins satifying their constraints.
