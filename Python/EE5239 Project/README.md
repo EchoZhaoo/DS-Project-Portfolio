@@ -30,4 +30,4 @@
 - For some twins and triplets having different gifts (which is 2 tripets and 42 twins in out final result), we swap their gifts with singes to make triplets and twins satifying their constraints.
 
 ## Result
-Out result is around 0.9287
+Out result is around **0.9287**.
