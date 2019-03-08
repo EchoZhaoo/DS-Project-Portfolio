@@ -75,7 +75,7 @@ For more details check this [Kaggle competition](https://www.kaggle.com/c/wids20
 - The dataset covers approximately **200 million** clicks, and 8 features are included in train data set. Based on these features, our final predictive model included **21 features**. <br />
 - The dataset is **highly imbalanced**. Gradient boosting decision tree algorithm (**LightGBM**) was chosen as the final model.
 
-**Keywords**: *Python, Data Visualization, Penalized Logistic Regression, Random Forest, Gradient Boosting, LightGBM, XGBoost*
+**Keywords**: *Python, Data Visualization, Penalized Logistic Regression, Random Forest, Gradient Boosting, LightGBM*
 
 ## *Prediction of Waste Produced Amount for Company*
  [R Code](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/R%20Code/STAT5302_Project.R)<br />
