@@ -70,6 +70,7 @@ For more details check this [Kaggle competition](https://www.kaggle.com/c/wids20
 ## *TalkingData AdTracking Fraud Detection*
 [Python Jupyter Notebook](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Python/TalkingData.ipynb)<br /> 
 [Final Report](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/PUBH%207475_Final_Report.pdf)<br /> 
+[Blog](https://github.com/EchoZhaoo/DS-Project-Portfolio/blob/master/Report/TalkingData.md)<br /> 
 - **Goal**: to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement.<br />
 - The dataset covers approximately **200 million** clicks, and 8 features are included in train data set. Based on these features, our final predictive model included **21 features**. <br />
 - The dataset is **highly imbalanced**. Gradient boosting decision tree algorithm (**LightGBM**) was chosen as the final model.
