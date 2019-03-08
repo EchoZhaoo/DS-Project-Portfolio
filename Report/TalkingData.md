@@ -44,7 +44,7 @@
 
 
 ## Conclusion
-- Since our newly created features were correlated with one another, and some of the original features were correlated as well (device and os). Logistic regression was not a good model choice, even with LASSO regularizatio
+- Since our newly created features were correlated with one another, and some of the original features were correlated as well (device and os). Logistic regression was not a good model choice, even with LASSO regularization.
 - LightGBM proved to be a more preferable method, both in time, memory efficiency and accuracy. 
 - Undersampled train dataset left us with very little information, as most of the majority samples were discarded. Therefore the performance was not good. 
 - Using more samples with weight in GBDT methods resulted in better accuracys, which was another advantage of GBDT that was not possible in methods like logistic regression.
