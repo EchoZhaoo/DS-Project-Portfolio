@@ -34,7 +34,7 @@ Result: 0.90 on leaderboard Note: also tried submitting predictions using Random
 - XGBoost (tuned): ~ 0.95
 
 
-# Conclusion
+# Future Work
 Put more strength on feature engineer
 - Try different encoding methods, like Binary Encoding, Cluster Encoding and Mean Encoding
 - Try feature reduction according to the importance of each feature
