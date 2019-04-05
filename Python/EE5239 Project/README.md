@@ -12,7 +12,7 @@
 ## Feature engineering
 - Treat all the triplets as three kids with same preferences on gifts, where the unique wishlist was picked from one of the triplets.
 - Treat all the twins as two kids with same preferences, where the unique wishlist was picked from one of the twins.
-- Did some approximation of the given evaluatio model for total happiness for easier computing.
+- Did some approximation of the given evaluation model for total happiness for easier computing.
 - Only considered the first 60 gifts on the kids' wishlist because of the limited computing resource.
 - Only take the cases that both children and gifts are interested to each other, discared all the rest cases.
 
