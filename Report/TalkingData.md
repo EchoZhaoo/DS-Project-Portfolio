@@ -5,7 +5,7 @@
 - Our **goal** here is to build an algorithm that predicts whether a user will download an application after clicking a mobile advertisement. This is a classification problem.
 - The dataset covered approximately **200 million** clicks, which means there were nearly 200 million observations.
 - The whole dataset was ordered by timestamps.
-- The train set covered all the clicks during a 3-day period. **8 features** were include in train data set, with 184,903,890 rows.
+- The train set covered all the clicks during a 3-day period. **8 features** were included in train data set, with 184,903,890 rows.
 - The test set covered all the clicks on the next day. It contained only **7 features** and 18,790,469 rows.
 - The dataset was highly **imbalanced**, with **99.75%** of the observations belonging to the negative class and only **0.25%** of the observations in the positive class.<br />
 ---------------------------------
