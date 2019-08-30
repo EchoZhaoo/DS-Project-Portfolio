@@ -36,7 +36,8 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] Object Detection
 - [ ] Pattern Recognition
 - [ ] Statistical Element
-- [ ] Hadoop / Spark / 
+- [ ] Hadoop / Spark 
+- [ ] AWS Redshift
 - [ ] Reenforcement Learning
 
 
