@@ -17,7 +17,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] Docker
 - [ ] requests 
 - [ ] Flask
-- [ ] filter(), map(), reduce()
+- [X] `filter()`, `map()`, `reduce()`
 - [ ] assert
 - [ ] with
 - [ ] try exception
@@ -27,12 +27,11 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] dictionary (`.key()`, `.item()`)
 - [ ] traceback 
 - [ ] current_app
-- [ ] app
 - [ ] mock
 - [ ] Deep Learning Books
 - [ ] Deep Learning Coursera
 - [ ] Recommender System Books
-- [ ] cupy (speed numpy)
+- [X] cupy (speed numpy)
 - [ ] Cython 
 - [ ] GAN
 - [ ] Object Detection
