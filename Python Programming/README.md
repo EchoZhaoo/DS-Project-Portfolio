@@ -32,6 +32,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] Deep Learning Coursera
 - [ ] Recommender System Books
 - [ ] cupy (speed numpy)
+- [ ] Cython 
 - [ ] GAN
 - [ ] Object Detection
 - [ ] Pattern Recognition
