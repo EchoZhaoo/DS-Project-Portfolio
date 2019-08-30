@@ -44,5 +44,6 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] Pytorch
 - [ ] Tensorflow
 - [ ] CUDA
+- [ ] numba
 
 
