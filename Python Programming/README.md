@@ -41,5 +41,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] AWS Redshift
 - [ ] Reenforcement Learning
 - [ ] CPU & GPU
+- [ ] Pytorch
+- [ ] Tensorflow
 
 
