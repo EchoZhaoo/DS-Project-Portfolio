@@ -29,7 +29,14 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] app
 - [ ] mock
 - [ ] Deep Learning Books
+- [ ] Deep Learning Coursera
 - [ ] Recommender System Books
 - [ ] cupy (speed numpy)
 - [ ] GAN
 - [ ] Object Detection
+- [ ] Pattern Recognition
+- [ ] Statistical Element
+- [ ] Hadoop / Spark / 
+- [ ] Reenforcement Learning
+
+
