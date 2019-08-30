@@ -40,5 +40,6 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] Hadoop / Spark 
 - [ ] AWS Redshift
 - [ ] Reenforcement Learning
+- [ ] CPU & GPU
 
 
