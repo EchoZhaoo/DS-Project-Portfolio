@@ -13,6 +13,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] `sorted()` vs. `.sort()`
 - [X] logging
 - [X] string formatting
+- [ ] decorator
 - [ ] Docker
 - [ ] requests 
 - [ ] Flask
