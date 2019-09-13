@@ -15,8 +15,8 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] [string formatting](https://realpython.com/python-string-formatting/)
 - [X] [unittest](https://realpython.com/python-testing/)
 - [X] [time](https://realpython.com/python-time-module/)
-- [ ] decorator
-- [ ] context manager
+- [ ] [decorator](https://realpython.com/primer-on-python-decorators/)
+- [ ] [context manager](https://realpython.com/courses/python-context-managers-and-with-statement/)
 - [ ] Docker
 - [ ] requests 
 - [ ] Flask
