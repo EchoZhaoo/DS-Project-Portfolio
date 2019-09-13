@@ -14,6 +14,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] logging
 - [X] string formatting
 - [X] unittest
+- [X] time
 - [ ] decorator
 - [ ] Docker
 - [ ] requests 
