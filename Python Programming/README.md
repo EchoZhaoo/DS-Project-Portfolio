@@ -29,7 +29,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] dictionary (`.key()`, `.item()`)
 - [ ] traceback 
 - [ ] current_app
-- [ ] mock
+- [ ] [mock](https://realpython.com/python-mock-library/)
 - [ ] Deep Learning Books
 - [ ] Deep Learning Coursera
 - [ ] Recommender System Books
