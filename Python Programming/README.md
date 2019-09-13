@@ -9,17 +9,17 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - 
 
 ## Bucket List
-- [X] JSON
-- [X] `sorted()` vs. `.sort()`
-- [X] logging
-- [X] string formatting
-- [X] unittest
-- [X] time
+- [X] [JSON](https://realpython.com/python-json/)
+- [X] [`sorted()` vs. `.sort()`](https://realpython.com/python-sort/)
+- [X] [logging](https://realpython.com/python-logging/)
+- [X] [string formatting](https://realpython.com/python-string-formatting/)
+- [X] [unittest](https://realpython.com/python-testing/)
+- [X] [time](https://realpython.com/python-time-module/)
 - [ ] decorator
 - [ ] Docker
 - [ ] requests 
 - [ ] Flask
-- [X] `filter()`, `map()`, `reduce()`
+- [X] [`filter()`, `map()`, `reduce()`](https://realpython.com/courses/functional-programming-python/)
 - [ ] assert
 - [ ] with
 - [ ] try exception
