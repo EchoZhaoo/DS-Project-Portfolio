@@ -17,6 +17,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] [time](https://realpython.com/python-time-module/)
 - [ ] [decorator](https://realpython.com/primer-on-python-decorators/)
 - [ ] [context manager](https://realpython.com/courses/python-context-managers-and-with-statement/)
+- [ ] [magic methods](https://dbader.org/blog/python-dunder-methods)
 - [ ] Docker
 - [ ] requests 
 - [ ] Flask
