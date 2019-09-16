@@ -30,7 +30,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] yaml
 - [ ] `open()`, `write()`
 - [ ] dictionary (`.key()`, `.item()`)
-- [ ] traceback 
+- [X] traceback 
 - [ ] current_app
 - [X] [mock](https://realpython.com/python-mock-library/)
 - [ ] Deep Learning Books
