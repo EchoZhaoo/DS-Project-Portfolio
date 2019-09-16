@@ -25,7 +25,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] [assert](https://realpython.com/python-exceptions/)
 - [ ] with
 - [X] [try exception](https://realpython.com/python-exceptions/)
-- [ ] [Error](https://realpython.com/python-keyerror/)
+- [X] [Error](https://realpython.com/python-keyerror/)
 - [X] [exceptions](https://docs.python.org/3/library/exceptions.html)
 - [ ] yaml
 - [ ] `open()`, `write()`
