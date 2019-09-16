@@ -22,10 +22,11 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] requests 
 - [ ] Flask
 - [X] [`filter()`, `map()`, `reduce()`](https://realpython.com/courses/functional-programming-python/)
-- [ ] assert
+- [X] [assert](https://realpython.com/python-exceptions/)
 - [ ] with
-- [ ] try exception
+- [X] [try exception](https://realpython.com/python-exceptions/)
 - [ ] Error
+- [X] [exceptions](https://docs.python.org/3/library/exceptions.html)
 - [ ] yaml
 - [ ] `open()`, `write()`
 - [ ] dictionary (`.key()`, `.item()`)
