@@ -9,6 +9,10 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - 
 
 ## Bucket List
+- [X] `__repr__` vs `__str__`
+- [X] `super()`
+- [X] deep copy vs shallow copy
+- [X] dash in Python
 - [X] [JSON](https://realpython.com/python-json/)
 - [X] [`sorted()` vs. `.sort()`](https://realpython.com/python-sort/)
 - [X] [logging](https://realpython.com/python-logging/)
