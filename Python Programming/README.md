@@ -15,7 +15,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] [string formatting](https://realpython.com/python-string-formatting/)
 - [X] [unittest](https://realpython.com/python-testing/)
 - [X] [time](https://realpython.com/python-time-module/)
-- [ ] [decorator](https://realpython.com/primer-on-python-decorators/)
+- [X] [decorator](https://realpython.com/primer-on-python-decorators/)
 - [X] [First-Class Functions](https://dbader.org/blog/python-first-class-functions)
 - [ ] [context manager](https://realpython.com/courses/python-context-managers-and-with-statement/)
 - [ ] [magic methods](https://dbader.org/blog/python-dunder-methods)
