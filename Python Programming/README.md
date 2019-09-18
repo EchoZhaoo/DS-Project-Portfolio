@@ -25,6 +25,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] [magic methods](https://dbader.org/blog/python-dunder-methods)
 - [ ] Docker
 - [ ] requests 
+- [ ] web scraping
 - [ ] Flask
 - [X] [`filter()`, `map()`, `reduce()`](https://realpython.com/courses/functional-programming-python/)
 - [X] [assert](https://realpython.com/python-exceptions/)
