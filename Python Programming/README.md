@@ -30,6 +30,7 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [ ] requests 
 - [ ] web scraping
 - [ ] Flask
+- [ ] unittest in Python: nose
 - [X] [`filter()`, `map()`, `reduce()`](https://realpython.com/courses/functional-programming-python/)
 - [X] [assert](https://realpython.com/python-exceptions/)
 - [ ] with
