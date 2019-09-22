@@ -15,7 +15,8 @@ This directory is for Python Programming learning, which started from 2019 Fall.
 - [X] dash in Python
 - [X] data structure in pandas
 - [ ] data structure in numpy
-- [ ] indexing and selecting data in pandas
+- [X] indexing and selecting data in pandas
+- [ ] [list comprehension in python](https://medium.com/better-programming/list-comprehension-in-python-8895a785550b)
 - [X] [JSON](https://realpython.com/python-json/)
 - [X] [`sorted()` vs. `.sort()`](https://realpython.com/python-sort/)
 - [X] [logging](https://realpython.com/python-logging/)
